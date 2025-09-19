@@ -1,0 +1,518 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* navbar style */
+
+
+.main-div{
+  background:slategray;
+  display:flex;
+  text-align:center;
+  align-items: center;
+  height:60px;
+}
+
+.main-div a{
+  color:white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-div a:hover{
+  color: pink;
+}
+
+.main-x{
+  margin-right: 350px;
+  margin-left: 100px;
+  font-size: 40px;
+  font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ /* container-one style */
+
+.container-one{
+  background: rgb(38, 97, 142);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yellow{
+  color:yellow;
+}
+
+.tomato{
+  color:rgb(194, 211, 205);
+}
+
+.container-one h1{
+  font-size:58px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+.container-one h3{
+   margin-bottom:10px;
+   font-size: 25px;
+}
+
+.container-one p{
+  font-family: cursive;
+  width:50%;
+}
+
+#main-one button{
+  padding: 8px;
+  width: 110px;
+  background:yellow;
+  border-radius: 20px;
+  color:black;
+  margin-top: 20px;
+  margin-right:10px;
+  border: 1px solid slategray;
+  margin-bottom: 50px;
+  font-family: cursive;
+  cursor: pointer;
+}
+
+
+#main-one button:hover{
+  background: tomato;
+}
+
+
+#main-one{
+  margin-left: 110px;
+  margin-top: 100px;  
+}
+
+.main-two img{
+  height: 500px;
+  width: 480px;
+  border-radius: 5px;
+  border:none;
+}
+
+ /* container two style */
+
+.container-two{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: cursive;
+}
+.main-three{
+  margin-right: 150px;
+  
+}
+
+/* container three style */
+
+.container-three{
+  margin-bottom: 5px;
+  margin-top: 50px;
+  background: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contain img{
+  width: 330px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 200px;
+  margin-left:50px;
+}
+
+.me-boss{
+  margin-top: 30px;
+  text-align:left;
+}
+.me-boss p{
+  font-size: 20px;
+  text-transform:none;
+  width:70%;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.boss-me{
+  text-align:left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.me-boss a{
+  font-family: cursive;
+  text-decoration: none;
+  color: tomato;
+}
+/* container x style */
+
+.container-x{
+  height: 100px;
+  display: flex;
+  background: #eeeeee;
+  margin-bottom: 3px;
+}
+.container-x p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:25px;
+  font-family: tahoma;
+  padding: 40px;
+  margin-left: 300px;
+  padding: 20px;
+  margin-top: 20px;
+
+ 
+}
+
+.spin{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 8px solid black;
+  border-top:8px  solid sandybrown;
+  animation:spinanimate 0.3s ease-in 0s infinite normal;
+
+}
+
+@keyframes spinanimate{
+
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+
+}
+    
+
+/* container-y style */
+.containar-y{
+  /* background:black; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+/* .one-name{
+  font-family: monospace;
+  font-size: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+ color: fuchsia;
+} */
+.class-one{
+  padding: 20px;
+}
+.one{
+  background: green;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.one:hover{
+  background: cadetblue;
+}
+.two{
+  background: salmon;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+}
+.two:hover{
+  background: springgreen;
+}
+.three{
+  background: sienna;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.three:hover{
+  background: coral;
+}
+.four{
+  background:slateblue;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.four:hover{
+  background: sienna;
+}
+.five{
+  background: springgreen;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.five:hover{
+  background: crimson;
+}
+.six{
+  background:turquoise;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.six:hover{
+  background: tomato;
+
+}
+.five:hover{
+  background: blueviolet;
+}
+.seven{
+  background:yellow ;
+  width: 150px;
+  padding: 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.seven:hover{
+  background: rgb(107, 17, 17);
+  color: white;
+}
+#box h3{
+  font-family: tahoma;
+  font-size: 25px;
+  padding: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+
+/* container four style */
+
+.container-four{
+  height: 100px;
+  background:rgb(239, 239, 154);
+  display: flex;
+
+}
+
+.mobile h2{
+  font-family: tahoma;
+  font-size: 25px;
+  margin-left: 110px;
+  margin-top: 30px;
+
+}
+.mobile-x button{
+  width: 160px;
+  border-radius: 100px;
+  padding:14px;
+  background:tomato;
+  border: none;
+  font-size: 16px;
+  margin-left: 700px;
+  margin-top: 30px;
+}
+.mobile-x button:hover{
+  background:rgb(239, 239, 154);
+  border: 2px solid black;
+
+}
+
+.last-div h2{
+  text-align: left;
+  margin-left: 10%;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last-div button{
+  padding: 15px;
+  border-radius: 50px;
+  width: 200px;
+  border: 2px solid black;
+  background:tomato;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:18px;
+  float: right;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-div button:hover{
+  background:rgb(239, 239, 154) 
+}
+
+.last-div{
+  height: 80px;
+}
+ /* bye section style */
+.bye{
+  background: deepskyblue;
+  display:flex;
+}
+.bye input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  font-family: cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bye button{
+  padding: 10px;
+  width: 100px;
+  border-radius: 30px;
+  border:none;
+  background: yellow;
+  font-family: cursive;
+}
+.bye button:hover{
+  background: tomato;
+
+}
+.haha{
+  margin-right: 200px;
+}
+
+.bye-re{
+  margin-left: 100px;
+}
+
+.bye-re h3{
+  font-size: 35px;
+  font-family: Tahoma;
+}
+.haha button:hover{
+  background: tomato;
+}
+
+.Hmm{
+  line-height: 10px;
+}
+.haha{
+  float: right;
+}
+.who{
+  color: yellow;
+}
+
+.last-div h2{
+  margin-left:80px;
+  padding:20px;
+}
+.bye h3{
+  padding: 8px;
+}
+.bye p{
+  margin-left: 10px;
+
+}
+/* footer work style */
+
+.footer{
+  background:#414350;
+  color: white;
+}
+
+.container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.box-1{
+  margin-right: 100px;
+}
+.box-1 h1{
+  font-family: tahoma;
+}
+.box-1 p{
+  text-align: left;
+  margin-left: 60px;
+  font-size:17px;
+}
+.box-2{
+  margin-right: 100px;
+}
+
+.box-2 h1{
+  text-transform: uppercase;
+  color: tomato;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: tahoma;
+}
+.box-3{
+  margin-right: 100px;
+}
+
+.box-3 img{
+  height: 200px;
+  width: 300px;
+}
+
+.box-4 img{
+  height: 200px;
+  width: 300px;
+}
+
+address{
+  font-family:tahoma ;
+}
+
+.hero{
+  text-align: center;
+  color: #bbbdbe;
+  border-top: 1px solid slategray;
+  text-transform: uppercase;
+}
