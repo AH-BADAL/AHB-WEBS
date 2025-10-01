@@ -522,7 +522,7 @@ address{
   #nav-bar a{
     display: block;
     margin: 5px 0;
-    width: 70%;
+    width: 100%;
     text-align: center;
   }
   .container-one{
